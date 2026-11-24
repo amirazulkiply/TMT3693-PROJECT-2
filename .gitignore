@@ -1,0 +1,20 @@
+# Protect your database credentials and configuration
+config.php
+.env
+config.ini
+
+# Protect uploaded images from being tracked in Git (only track sample images)
+uploads/*
+!uploads/.gitkeep
+
+# Composer dependencies
+/vendor/
+/node_modules/
+
+# Logs
+*.log
+/logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
